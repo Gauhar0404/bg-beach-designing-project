@@ -1,0 +1,1 @@
+# bg-beach-designing-project
