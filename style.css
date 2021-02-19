@@ -1,0 +1,68 @@
+*{margin: 0;
+  padding: 0;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+#showcase{
+    background-image: url("/seashells3.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: o 20px;
+    text-align: center;
+}
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .Button{
+    font-size: 18px;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #926239;
+    text-decoration: none;
+    margin-top: 20px;
+}
+#showcase .Button:hover{
+    background-color: #926239;
+    color: white;
+}
+#section-a{
+    padding: 20px;
+    background-color: #926239;
+    color:white;
+    text-align: center;
+}
+#section-b{
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+#section-c{
+    display: flex;
+}
+#section-c div{
+    padding: 20px;
+}
+#section-c .box-1, #section-c .box-3{
+    background-color: #926239;
+    color: white;
+}
+#section-c .box-2{
+    background-color: #f9f9f9;
+}
